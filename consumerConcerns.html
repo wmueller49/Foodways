@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumer Concerns</title>
+	<link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!-- https://fonts.google.com/ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/templatemo-video-catalog.css">
+</head>
+<!--
+
+TemplateMo 552 Video Catalog
+
+https://templatemo.com/tm-552-video-catalog
+
+-->
+<body>
+	<div class="tm-page-wrap mx-auto">
+		<div class="position-relative">
+			<div class="potition-absolute tm-site-header">
+				<div class="container-fluid position-relative">
+					<div class="row">						
+
+                        <div class="col-5 col-md-8 ml-auto mr-0">
+                            <div class="tm-site-nav">
+                                <nav class="navbar navbar-expand-lg mr-0 ml-auto" id="tm-main-nav">
+                                    <button class="navbar-toggler tm-bg-black py-2 px-3 mr-0 ml-auto collapsed" type="button"
+                                        data-toggle="collapse" data-target="#navbar-nav" aria-controls="navbar-nav"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span>
+                                            <i class="fas fa-bars tm-menu-closed-icon"></i>
+                                            <i class="fas fa-times tm-menu-opened-icon"></i>
+                                        </span>
+                                    </button>
+                                    <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
+                                        <ul class="navbar-nav text-uppercase">
+                                            <li class="nav-item active">
+                                                <a class="nav-link tm-nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+			<div class="tm-welcome-container tm-fixed-header tm-fixed-header-consumers">
+				<!--
+				<div class="text-center">
+					<p class="pt-5 px-3 tm-welcome-text tm-welcome-text-2 mb-1 text-white mx-auto">Background image can be fixed. Content will simply slide over.</p>                	
+				</div>            
+			-->    
+            </div>
+
+			<!-- Header image -->
+            <div id="tm-fixed-header-bg"></div> 
+		</div>
+
+		<!-- Page content -->
+		<div class="container-fluid">
+			<div class="mx-auto tm-content-container">
+				<main>
+					<div class="row mb-5 pb-5">
+						<div class="col">
+							<!-- Video description -->
+							<div class="tm-video-description-box">
+								<h2 class="mb-5 tm-video-title" style="font-weight: bold;">Consumer Concerns</h2>
+								
+								<p style="font-style: italic; font-weight: bold;">
+                                    What changed consumer’s perceptions of fast food? When did that change happen?
+                                </p>
+
+								<p class="mb-4">Eventually, after years of increased portion sizes and with it, increased obesity, Americans started to catch on that fast food wasn’t the healthiest option. Starting in the early 2000s, fast food companies began to feel pressures to give healthier options and to reduce their portion sizes. McDonald’s even began a “Eat Smart, Be Active” initiative in 2003, and eventually announced they would eliminate their supersize option in 2004, but they still received unwanted attention as the documentary Super Size Me also came out in 2004 (Kelly, Debra; Spurlock, Morgan). However, McDonald’s has claimed that their decision to remove super sized items from their menu was due to menu simplification, and not related to the Super Size Me documentary (Kelly, Debra). According to one study, this documentary did, at least in the short term, increase many factors of young adults that should help them make smarter eating decisions (Cottone, Ellen, and Carol Byrd-Bredbenner). Thus, with Super Size Me came some greater public awareness of the potentially negative impacts of fast food.</p>
+
+								<p class="mb-4">Yet, despite this awareness, not much changed. According to a study which looked at the nutritional value of fast food options from 1986 to 2016, there was a significant increase in portion sizes, sodium, and calories in entrees, sides, and desserts (McCrory, Megan A., et al). Starting in 2008, different states and localities created laws requiring nutritional information such as caloric content to be posted in chain restaurants. One study about the impact of these laws found that in restaurants in locations with these laws, there was a statistically significant increase in the number of healthier adult entrees over restaurants outside of these areas. However, no such improvement was found for child entrees, and the average nutritional value in adult entrees and sides remained unchanged (Namba, Alexa, et al). Therefore, fast food brands really made no significant change in the quality of their food after facing pressure to do so. Instead, they changed how they marketed themselves to consumers.</p>								
+							</div>							
+						</div>
+					</div>
+				</main>
+
+				<div class="row">
+					<div class="col-sm-6">
+						<h3>Previous Article:</h3>
+						<a href="superSizeMe.html" style="display: inline;">
+							<h3><i class="fas fa-arrow-left"></i> Super Size Me</h3>
+						</a>
+					</div>
+					<div class="col-sm-6" style="text-align: right;">
+						<h3>Read next:</h3>
+						<a href="healthyFastFood.html" style="display: inline;">
+							<h3>"Healthy" Fast Food <i class="fas fa-arrow-right"></i></h3>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+    	$(document).ready(function() {
+    		$('.tm-likes-box').click(function(e) {
+    			e.preventDefault();
+    			$(this).toggleClass('tm-liked');
+
+    			if($(this).hasClass('tm-liked')) {
+    				$('#tm-likes-count').html('486 likes');
+    			} else {
+    				$('#tm-likes-count').html('485 likes');
+    			}
+    		});
+    	});
+    </script>
+</body>
+</html>

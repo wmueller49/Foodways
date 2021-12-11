@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Size Me</title>
+	<link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!-- https://fonts.google.com/ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/templatemo-video-catalog.css">
+</head>
+<!--
+
+TemplateMo 552 Video Catalog
+
+https://templatemo.com/tm-552-video-catalog
+
+-->
+<body>
+	<div class="tm-page-wrap mx-auto">
+		<div class="position-relative">
+			<div class="potition-absolute tm-site-header">
+				<div class="container-fluid position-relative">
+					<div class="row">						
+
+                        <div class="col-5 col-md-8 ml-auto mr-0">
+                            <div class="tm-site-nav">
+                                <nav class="navbar navbar-expand-lg mr-0 ml-auto" id="tm-main-nav">
+                                    <button class="navbar-toggler tm-bg-black py-2 px-3 mr-0 ml-auto collapsed" type="button"
+                                        data-toggle="collapse" data-target="#navbar-nav" aria-controls="navbar-nav"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span>
+                                            <i class="fas fa-bars tm-menu-closed-icon"></i>
+                                            <i class="fas fa-times tm-menu-opened-icon"></i>
+                                        </span>
+                                    </button>
+                                    <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
+                                        <ul class="navbar-nav text-uppercase">
+                                            <li class="nav-item active">
+                                                <a class="nav-link tm-nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+			<div class="tm-welcome-container tm-fixed-header tm-fixed-header-superSize">
+				<!--
+				<div class="text-center">
+					<p class="pt-5 px-3 tm-welcome-text tm-welcome-text-2 mb-1 text-white mx-auto">Background image can be fixed. Content will simply slide over.</p>                	
+				</div>            
+			-->    
+            </div>
+
+			<!-- Header image -->
+            <div id="tm-fixed-header-bg"></div> 
+		</div>
+
+		<!-- Page content -->
+		<div class="container-fluid">
+			<div class="mx-auto tm-content-container">
+				<main>
+					<div class="row mb-5 pb-5">
+						<div class="col">
+							<!-- Video description -->
+							<div class="tm-video-description-box">
+								<h2 class="mb-5 tm-video-title" style="font-weight: bold;">Super Size Me</h2>
+								<p style="font-style: italic; font-weight: bold;" >
+									How did portion sizes get so big? What impact has these huge portion sizes made?
+								</p>
+
+								<p class="mb-4">After World War II, new technologies came along that changed how agriculture in the United States now works. Pesticides, herbicides, and other similar chemicals made it easier for farmers to grow more food at a cheaper price. Then, starting in the 1970s, the government started to subsidize the agriculture market. Simultaneously, many fast food brands were interested in continuing their expansion, and with their expansion, they wanted bigger and better profits. With food having become much cheaper, these companies began to increase their portion sizes to include significantly more food. This allowed them to charge more, increasing their profit margins and their profits (Weise, Elizabeth). This trend wasn’t even just for fast food, however, it was for all food, as one study found that “overall, our observations indicate that the portion sizes of virtually all foods and beverages prepared for immediate consumption have increased and now appear typical.” (Young, Lisa R, and Marion Nestle). Alongside food, soft drinks were extremely important, as they were extremely profitable items for fast food companies. Importantly, their consumption increased nearly four times in the second half of the 20th century (Penfold, Steve).</p>
+
+								<img src="img/increasePortions.jpg" style="max-width: 100%; height: auto;">
+
+								<p style="font-style: italic" class="mb-4">“Introduction of new, larger portions, 1970-1999.” (Young, Lisa R, and Marion Nestle).</p>
+
+								<img src="img/diffPortions.jpg" style="max-width: 100%; height: auto;">
+
+								<p style="font-style: italic" class="mb-4">“Percentage difference between actual portion sizes of ready-to-eat prepared foods and standard US Department of Agriculture (USDA) and US Food and Drug Administration (FDA) portion sizes.” (Young, Lisa R, and Marion Nestle).</p>
+								<p class="mb-4">In the same years that fast food portion sizes increased, obesity rates skyrocketed. According to one study, “the rate of growth for those in the super morbid obese category increased from roughly 1 in 2,000 to 1 in 400 (500% growth) between 1986 and 2000, while the rate of obesity increased from 1 in 10 to 1 in 5 (200% growth) during the same period.” (Garcia, Ginny, et al). This massive increase in obesity doesn’t simply impact adults, though, as one review of multiple studies found that a significant amount of the studies it reviewed indicated that these large portion sizes promoted eating behaviors that oftentimes led to obesity, and that these impacts could influence children at the age of 2 (Fisher, Jennifer O., and Tanja V.E. Kral). Clearly, fast food and its increase in portion sizes is directly proportional to the increased rates of obesity.</p>
+							</div>							
+						</div>
+					</div>
+				</main>
+				<div class="row">
+					<div class="col-sm-6">
+						<h3>Previous Article:</h3>
+						<a href="history.html" style="display: inline;">
+							<h3><i class="fas fa-arrow-left"></i> The History of Fast Food</h3>
+						</a>
+					</div>
+					<div class="col-sm-6" style="text-align: right;">
+						<h3>Read next:</h3>
+						<a href="consumerConcerns.html" style="display: inline;">
+							<h3>Consumer Concerns <i class="fas fa-arrow-right"></i></h3>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+    	$(document).ready(function() {
+    		$('.tm-likes-box').click(function(e) {
+    			e.preventDefault();
+    			$(this).toggleClass('tm-liked');
+
+    			if($(this).hasClass('tm-liked')) {
+    				$('#tm-likes-count').html('486 likes');
+    			} else {
+    				$('#tm-likes-count').html('485 likes');
+    			}
+    		});
+    	});
+    </script>
+</body>
+</html>
